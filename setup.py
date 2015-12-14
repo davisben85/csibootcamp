@@ -4,5 +4,5 @@ for module in modules:
       try:
             __import__(module)
       except ImportError:
-            break
+            print module + " exists."
                         
