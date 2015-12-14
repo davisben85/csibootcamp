@@ -1,4 +1,4 @@
-modules = set(['os','sys','boto'])
+modules = set(['os','sys'])
 
 for module in modules:
       try:
