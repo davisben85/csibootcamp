@@ -8,8 +8,6 @@ setup(name='app',
       author_email='davisben85@gmail.com',
       license='MIT',
       packages=['app'],
-      install_requires[
-        'pip'
-      ],
+      install_requires['pip'],
       zip_safe=False)
       
