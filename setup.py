@@ -2,7 +2,7 @@ modules = set(['pip'])
 
 for module in modules:
       try:
-            __import__(module):
+            __import__(module)
       except ImportError:
             break
                         
